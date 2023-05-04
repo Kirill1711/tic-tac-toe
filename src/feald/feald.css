@@ -1,0 +1,30 @@
+.body {
+    margin: 0 auto;
+    margin-top: 0 auto;
+    background: #ffffff;
+}
+table {
+    margin-top: 15px;
+    margin: 0 auto;
+    background: #0295a9;
+    border-radius: 25px;
+}
+
+td {
+    border-bottom: 2px solid hsl(126, 95%, 50%);
+    border-right: 2px solid hsl(126, 95%, 50%);
+    width: 150px;
+    height: 150px;
+    font-size: 100px;
+    text-align: center;
+    color: hsl(0, 23%, 95%);
+}
+td:last-child {
+    border-right: none;
+}
+tr:last-child td {
+    border-bottom: none;
+}
+.active {
+    pointer-events: none;
+}
